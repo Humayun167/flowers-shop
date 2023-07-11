@@ -1,0 +1,538 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-lato: Lato;
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-size-21xl: 40px;
+    --font-size-5xl: 24px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-indianred-100: #e55473;
+    --color-gray-100: #272727;
+    --color-gray-200: rgba(39, 39, 39, 0.8);
+    --color-gray-300: rgba(39, 39, 39, 0.6);
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-24xl: 43px;
+  
+    /* border radiuses */
+    --br-5xs: 8px;
+    --br-281xl: 300px;
+  }
+  
+  .website-design-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(229, 84, 115, 0.1);
+    width: 1920px;
+    height: 850px;
+  }
+  .it-is-a,
+  .lets-make-beautiful {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+  }
+  .lets-make-beautiful {
+    top: 0;
+    font-weight: 800;
+    width: 708px;
+  }
+  .it-is-a {
+    top: 320px;
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+    color: var(--color-gray-300);
+    width: 634px;
+  }
+  .shop-now {
+    position: relative;
+  }
+  .shop-now-wrapper {
+    position: absolute;
+    top: 442px;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-indianred-100);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xl) var(--padding-24xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+  }
+  .lets-make-beautiful-flowers-a-parent {
+    position: absolute;
+    top: 197px;
+    left: 240px;
+    width: 708px;
+    height: 506px;
+    text-align: left;
+    font-size: 80px;
+  }
+  .our-featured-flowers {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 196px);
+    font-weight: 800;
+  }
+  .it-is-a1,
+  .our-featured-flowers-parent {
+    position: absolute;
+    left: calc(50% - 297px);
+    width: 594px;
+  }
+  .it-is-a1 {
+    top: 72px;
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+    color: var(--color-gray-300);
+    display: inline-block;
+  }
+  .our-featured-flowers-parent {
+    top: 1028px;
+    height: 132px;
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+  }
+  .off {
+    color: var(--color-indianred-100);
+  }
+  .hot-deal-container {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 269px);
+    font-weight: 800;
+  }
+  .it-is-a2 {
+    position: absolute;
+    top: 72px;
+    left: calc(50% - 297px);
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+    color: var(--color-gray-300);
+    text-align: center;
+    display: inline-block;
+    width: 594px;
+  }
+  .sign-up-wrapper {
+    position: absolute;
+    top: 164px;
+    left: 208px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-indianred-100);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xl) var(--padding-24xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+  }
+  .hot-deal-sale-up-to-25-off-parent {
+    position: absolute;
+    top: 230px;
+    left: calc(50% - 566px);
+    width: 594px;
+    height: 228px;
+  }
+  .pngwing-8-icon {
+    position: absolute;
+    top: 100px;
+    left: 1175px;
+    width: 318px;
+    height: 420px;
+    object-fit: cover;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 2389px;
+    left: -2px;
+    width: 1922px;
+    height: 620px;
+    text-align: left;
+  }
+  .group-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #111010;
+    width: 1922px;
+    height: 449px;
+  }
+  .shop {
+    color: var(--color-white);
+  }
+  .flowershop {
+    position: absolute;
+    top: 128px;
+    left: 831px;
+    font-weight: 800;
+    text-align: left;
+  }
+  .it-is-a3 {
+    position: absolute;
+    top: 210px;
+    left: calc(50% - 313px);
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    width: 625px;
+  }
+  .flowershopcom-all-rights {
+    position: absolute;
+    top: 302px;
+    left: 784px;
+    font-size: var(--font-size-base);
+    color: rgba(255, 255, 255, 0.4);
+  }
+  .rectangle-group {
+    position: absolute;
+    top: 4418px;
+    left: -2px;
+    width: 1922px;
+    height: 449px;
+    font-size: 48px;
+    color: var(--color-indianred-100);
+  }
+  .group-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+  }
+  .group-icon {
+    position: absolute;
+    top: 0;
+    left: 142px;
+    width: 88px;
+    height: 88px;
+  }
+  .same-day-delivery {
+    position: absolute;
+    top: 112px;
+    left: 0;
+    line-height: 35px;
+    font-weight: 600;
+  }
+  .group-child1,
+  .group-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 372px;
+    height: 147px;
+  }
+  .group-child1 {
+    left: 114px;
+    width: 88px;
+    height: 88px;
+  }
+  .group-child2,
+  .group-div {
+    position: absolute;
+    top: 0;
+    left: 472px;
+    width: 316px;
+    height: 147px;
+  }
+  .group-child2 {
+    left: 57px;
+    width: 88px;
+    height: 88px;
+  }
+  .group-parent,
+  .group-parent1 {
+    position: absolute;
+    top: 0;
+    left: 888px;
+    width: 202px;
+    height: 147px;
+  }
+  .group-parent {
+    top: 86px;
+    left: 175px;
+    width: 1090px;
+  }
+  .rectangle-container {
+    position: absolute;
+    top: 1941px;
+    left: 240px;
+    width: 1440px;
+    height: 320px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-gray-200);
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-281xl) var(--br-281xl) 0 0;
+    background-color: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+  }
+  .pink-flower-tree {
+    position: absolute;
+    top: 570px;
+    left: 141px;
+    text-decoration: underline;
+    line-height: 35px;
+  }
+  .pngwing-5-icon {
+    position: absolute;
+    top: 117px;
+    left: 47px;
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+  }
+  .group-child3,
+  .rectangle-parent1 {
+    position: absolute;
+    top: 0;
+    left: 488px;
+    width: 464px;
+    height: 605px;
+  }
+  .group-child3 {
+    left: 0;
+    border-radius: var(--br-281xl) var(--br-281xl) 0 0;
+    background-color: rgba(167, 33, 98, 0.15);
+    height: 538px;
+  }
+  .pngwing-6-icon {
+    position: absolute;
+    top: 110px;
+    left: 76px;
+    width: 310px;
+    height: 428px;
+    object-fit: cover;
+  }
+  .pink-flower-tree-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 464px;
+    height: 605px;
+  }
+  .pink-flower-tree2 {
+    position: absolute;
+    top: 570px;
+    left: 142px;
+    text-decoration: underline;
+    line-height: 35px;
+  }
+  .group-child4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-281xl) var(--br-281xl) 0 0;
+    background-color: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+  }
+  .pngwing-7-icon {
+    position: absolute;
+    top: 67px;
+    left: 75px;
+    width: 314px;
+    height: 471px;
+    object-fit: cover;
+  }
+  .group-parent2,
+  .pink-flower-tree-group {
+    position: absolute;
+    top: 0;
+    left: 976px;
+    width: 464px;
+    height: 605px;
+  }
+  .group-parent2 {
+    top: 1208px;
+    left: 240px;
+    width: 1440px;
+    font-size: var(--font-size-5xl);
+  }
+  .instagram {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 90px);
+    font-weight: 800;
+  }
+  .instagram-parent {
+    position: absolute;
+    top: 3137px;
+    left: calc(50% - 297px);
+    width: 594px;
+    height: 132px;
+  }
+  .website-design-item {
+    position: absolute;
+    top: 3317px;
+    left: 240px;
+    width: 342px;
+    height: 396px;
+    object-fit: cover;
+  }
+  .group-child5,
+  .pngwing-10-icon,
+  .rectangle-icon,
+  .website-design-child1,
+  .website-design-inner {
+    position: absolute;
+    top: 3317px;
+    left: 606px;
+    width: 342px;
+    height: 396px;
+    object-fit: cover;
+  }
+  .group-child5,
+  .pngwing-10-icon,
+  .rectangle-icon,
+  .website-design-child1 {
+    left: 972px;
+  }
+  .group-child5,
+  .pngwing-10-icon,
+  .website-design-child1 {
+    left: 1338px;
+  }
+  .group-child5,
+  .pngwing-10-icon {
+    top: 50px;
+    left: 1045px;
+    width: 635px;
+    height: 800px;
+  }
+  .group-child5 {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    width: 1440px;
+    height: 449px;
+  }
+  .get-the-latest {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 186.5px);
+    font-weight: 800;
+  }
+  .coupon-for-first {
+    position: absolute;
+    top: 64px;
+    left: calc(50% - 115.5px);
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+    color: var(--color-gray-300);
+  }
+  .get-the-latest-deals-parent,
+  .group-child6 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 187px);
+    width: 373px;
+    height: 94px;
+  }
+  .group-child6 {
+    left: calc(50% - 350px);
+    border-radius: var(--br-5xs);
+    background-color: var(--color-white);
+    width: 700px;
+    height: 64px;
+  }
+  .enter-your-email {
+    position: absolute;
+    top: 23px;
+    left: calc(50% - 328px);
+  }
+  .group-child7,
+  .rectangle-parent3 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 433px);
+    width: 700px;
+    height: 64px;
+  }
+  .group-child7 {
+    left: calc(50% - 75px);
+    border-radius: var(--br-5xs);
+    background-color: var(--color-indianred-100);
+    width: 150px;
+  }
+  .subscribe {
+    position: absolute;
+    top: 18.29px;
+    left: 31px;
+    display: inline-block;
+    width: 88px;
+    height: 27.43px;
+  }
+  .rectangle-parent4 {
+    position: absolute;
+    top: 0;
+    left: calc(50% + 283px);
+    width: 150px;
+    height: 64px;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+  }
+  .group-parent3,
+  .group-parent4 {
+    position: absolute;
+    left: calc(50% - 433px);
+    width: 866px;
+  }
+  .group-parent4 {
+    top: 142px;
+    height: 64px;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-300);
+  }
+  .group-parent3 {
+    top: 122px;
+    height: 206px;
+  }
+  .rectangle-parent2 {
+    position: absolute;
+    top: 3841px;
+    left: 240px;
+    width: 1440px;
+    height: 449px;
+  }
+  .website-design {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 4867px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-gray-100);
+    font-family: var(--font-lato);
+  }
+  
